@@ -17,8 +17,10 @@ export default createGlobalStyle `
 
 export const Container = styled.div`
   width: 100%;
+  height: 100vh;
   display:flex;
-  justify-content: center;
   margin-top: 80px;
+  justify-content: center;
+  align-items: start;
   column-gap: 32px;
 `;
