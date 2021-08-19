@@ -1,5 +1,18 @@
 import styled from "styled-components";
 
+export const ComponentModule = styled.button`
+  position: relative;
+  width: 120px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+`;
+
 export const CircleProgress = styled.div`
   position: relative;
   width: 120px;
@@ -35,7 +48,7 @@ export const Svg = styled.svg`
   & circle:nth-child(2) {
     transition: stroke 0.3s ease 0s, stroke-dashoffset 0.45s ease 0s;
   }
-  `;
+`;
 
 export const Ilustration = styled.div`
   position: absolute;
@@ -46,5 +59,12 @@ export const Ilustration = styled.div`
   height: 90px;
   border-radius: 50%;
   background-color: teal;
+`;
+
+export const Name = styled.p`
+  font-size: 18px;
+  font-weight: 700;
+  color: whitesmoke;
+  margin-top: 1rem;
 `;
 
